@@ -27,14 +27,14 @@ describe("Flatten Integer with Es6 concepts", () => {
 
 describe("Flatten Integer with out Es6 concepts", () => {
   it('should flatten the array of integers', () => {
-    expect(flattenArrayClass.flatternArrayWithOutEs6(integerArray)).toEqual(expectedOutput);
+    expect(flattenArrayClass.flattenArrayWithOutEs6(integerArray)).toEqual(expectedOutput);
   });
   it('should flatten the array of integers with string number', () => {
-    expect(flattenArrayClass.flatternArrayWithOutEs6(stringIntegersArray)).toEqual(expectedOutput);
+    expect(flattenArrayClass.flattenArrayWithOutEs6(stringIntegersArray)).toEqual(expectedOutput);
   });
   it('should throw an error if there is any invalid input', () => {
     try {
-      flattenArrayClass.flatternArrayWithOutEs6(invalidIntegerArray);
+      flattenArrayClass.flattenArrayWithOutEs6(invalidIntegerArray);
     }
     catch(err) {
       expect(err.message).toEqual(errorMsg);

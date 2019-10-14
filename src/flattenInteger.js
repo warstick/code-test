@@ -46,7 +46,10 @@ FlattenIntegerArray.prototype.flattenArrayWithEs6 = integerArray => {
     return flattenArray;
 };
 
-FlattenIntegerArray.prototype.flatternArrayWithOutEs6 = function (integerArray) {
+/**
+ * In this function we are not using the es6 concepts. using vanila javascript concepts.
+ */
+FlattenIntegerArray.prototype.flattenArrayWithOutEs6 = function (integerArray) {
     var flattenArray = [];
     /**
      * it recieves integer or array of integers. and returns flattern array
